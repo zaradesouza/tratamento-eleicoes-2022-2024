@@ -2,11 +2,11 @@
 Projeto voluntário para a **[ONG Elas no Poder](https://elasnopoder.org/)**
 
 
-Este projeto realiza o tratamento e análise dos dados das eleições de 2022 e 2024, focando em fornecer insights e análises sobre candidatas e resultados eleitorais. Os dados são obtidos do Tribunal Superior Eleitoral (TSE) através dos links:
+Este projeto realiza o tratamento e análise dos dados das eleições de 2022 e 2024, focando em fornecer insights e análises sobre candidatas e resultados eleitorais. Os dados são obtidos do Tribunal Superior Eleitoral (TSE) através do link:
 
 - [Resultados - Portal de Dados Abertos do TSE](https://dadosabertos.tse.jus.br/dataset/?groups=resultados)
 
-**Nota:** O arquivo `consulta_cand_2024_BRASIL.csv` não está incluído no repositório devido ao seu tamanho (mais de 100 MB), mas pode ser baixado diretamente pelos links acima.
+**Nota:** O arquivo `consulta_cand_2024_BRASIL.csv` não está incluído no repositório devido ao seu tamanho (mais de 100 MB), mas pode ser baixado diretamente pelo link acima.
 
 ---
 
