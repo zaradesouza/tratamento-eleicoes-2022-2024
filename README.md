@@ -14,10 +14,10 @@ Os dados são obtidos do Tribunal Superior Eleitoral (TSE) através do link:
 
 ## Scripts R e Dashboard Power Bi
 
-| Script | Função principal |     Telas Power BI     | Arquivo(s) gerados |
+| Script | Função principal |       Telas Power BI       | Arquivo(s) gerados |
 |--------|-----------------|----------------------------|--------------------|
-| **`tratamento_dados_eleicoes.R`** | Trata arquivos `consulta_cand_2022_BRASIL.csv`  `consulta_cand_2024_BRASIL.csv` e consolida candidaturas 2022 + 2024, trata variáveis de gênero, cor/raça, cargo, partido, escolaridade e estado civil | **Tela 1 – PANORAMA** (distribuição de gênero, raça, cargos, etc.)<br>**Tela 3 – CANDIDATOS(AS)** (lista nome de urna, partido, cargo, município, situação) | `cand_geral.xlsx` |
-| **`tratamento_dados_candidatos.R`** | Trata arquivo `candidatos2024.csv`, padroniza campos identitários e classifica situação eleitoral | **Tela 2 – PERFIL SOCIAL** (faixa etária, identidade de gênero, orientação sexual, etnia indígena) | `cand_tela2.xlsx` |
+| **`tratamento_dados_eleicoes.R`** | Trata arquivos `consulta_cand_2022_BRASIL.csv`  `consulta_cand_2024_BRASIL.csv` e consolida candidaturas 2022 + 2024, trata variáveis de gênero, cor/raça, cargo, partido, escolaridade e estado civil | **Tela 1 – PANORAMA** (distribuição de gênero, raça, cargos, etc.)<br><br>**Tela 3 – CANDIDATOS(AS)** (lista nome de urna, partido, cargo, município, situação) | `cand_geral.xlsx` |
+| **`tratamento_dados_candidatos.R`** | Trata arquivo `candidatos2024.csv`, padroniza campos identitários e classifica situação eleitoral | **Tela 2 – PERFIL SOCIAL** <br>(faixa etária, identidade de gênero, orientação sexual, etnia indígena) | `cand_tela2.xlsx` |
 | **`tratamento_dados_eleitorado.R`** | Baixa o **perfil do eleitorado 2024** via `electionsBR`, trata variáveis de gênero, raça, escolaridade e faixa etária | **Tela 4 – ELEITORADO** (piramide etária, gênero, cor/raça, escolaridade, totais) | `perfil_eleitorado_2024.parquet` |
 
 Os dados são alimentados em tempo real para o **Power BI**, permitindo análises detalhadas e dinâmicas sobre as eleições. 
