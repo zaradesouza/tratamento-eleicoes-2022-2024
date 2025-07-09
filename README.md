@@ -54,9 +54,12 @@ Você pode acessar o dashboard completo [aqui](https://app.powerbi.com/view?r=ey
 2. Baixe os dados dos links fornecidos e salve como `consulta_cand_2022_BRASIL.csv` e `consulta_cand_2024_BRASIL.csv` na pasta do projeto.
 3. Instale os pacotes no R: install.packages(c("readr","dplyr","stringr","writexl","electionsBR","arrow")).
 5. Execute os scripts:
-   source("tratamento_dados_candidatos.R")      # gera cand_tela2.xlsx
-   source("tratamento_dados_eleicoes.R")        # gera cand_geral.xlsx
-   source("tratamento_dados_eleitorado.R")      # gera perfil_eleitorado_2024.parquet
+   
+   source("tratamento_dados_candidatos.R")   # gera cand_tela2.xlsx
+   
+   source("tratamento_dados_eleicoes.R")  # gera cand_geral.xlsx
+   
+   source("tratamento_dados_eleitorado.R")  # gera perfil_eleitorado_2024.parquet
 
 ---
 
