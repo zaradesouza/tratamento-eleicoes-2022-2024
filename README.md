@@ -65,5 +65,5 @@ Você pode acessar o dashboard completo [aqui](https://app.powerbi.com/view?r=ey
 
 ## Contato
 
-Tem dúvidas, achou um bug ou gostaria de sugerir melhorias? 
+Tem dúvidas ou gostaria de sugerir melhorias? 
 Me manda um e-mail: [**zara@estudante.ufscar.br**](mailto:zara@estudante.ufscar.br)
